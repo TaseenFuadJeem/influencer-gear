@@ -293,3 +293,60 @@ html, body{
         width: 100%;
     }
 }
+
+@media (min-width: 688px) and (max-width:992px) {
+    html, body{
+        margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    }
+
+    .leftside-of-navbar h1{
+        position: relative;
+        top: 5px;
+        left: 5px;
+    }
+    
+    .navbar .rightside-of-navbar a{
+        text-decoration: none;
+    padding-right: 25px;
+    color: black;
+    font-weight: 700;
+    }
+
+    .search-cart{
+        padding-right: 25px;
+    }
+
+    .top-article-decrip{
+        padding: 20px;
+    }
+
+    .top-article-decrip p{
+        text-align: justify;
+    }
+
+    .main-camera{
+        padding: 50px;
+    }
+
+    .product-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .seemore-button{
+        position: relative;
+        width: 100%;
+        left: 50%;
+        top: 600px;
+    }
+
+    .end-article-description{
+        padding-right: 20px;
+    }
+
+    .end-article-description p{
+        text-align: justify;
+    }
+}
