@@ -29,6 +29,16 @@ color: orange;
     color: rgba(119, 136, 153, 0.795);
 }
 
+.seemore-button{
+    text-decoration: none;
+    color:#E02C6DDE;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    left: 1050px;
+    top: 20px;
+}
+
 /* icon styles */
 
 .navbar{
@@ -91,6 +101,13 @@ line-height: 1.4;
     text-decoration: none;
     position: relative;
     top: 15px;
+    transition: transform 0.50s, background-color 0.50s;
+    display: inline-block;
+}
+
+.button:hover{
+transform: scale(1.1);
+background-color: #ff005d;
 }
 
 /* top article css ends  */
@@ -106,7 +123,7 @@ line-height: 1.4;
 .product-cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 30px;
+    grid-row-gap: 50px;
     max-width: 1200px;
     margin: 0 auto;
     margin-bottom: 150px;
@@ -119,6 +136,11 @@ line-height: 1.4;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 5px 10px 40px #888888cb;
+    transition: transform 0.50s;
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
 
 .ratings{
@@ -198,8 +220,8 @@ html, body{
         display: none;
     }
 
-    .leftside-of-navbar h1{
-        margin: 50px;
+    .leftside-of-navbar{
+        margin: auto;
         }
 
 .top-section-heading{
@@ -210,6 +232,7 @@ html, body{
         .top-article{
             display: grid;
             grid-template-columns: 1fr;
+            padding: 20px;
         }
 
         .top-article-decrip{
@@ -217,7 +240,8 @@ html, body{
         }
 
         .top-article-decrip p{
-            width: 385px;
+            width: 340px;
+            padding-right: 20px;
             margin: 0;
             margin-top: 30px;
         }
@@ -234,7 +258,7 @@ html, body{
             position: none;
             margin: 0;
             position: relative;
-            right: 20px;
+            right: 50px;
             bottom: 100px;
         }
 
@@ -246,9 +270,19 @@ html, body{
         grid-template-columns: 1fr ;
     }
 
+    .seemore-button{
+        position: relative;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .end-section-artcicle{
         display: grid;
         grid-template-columns: 1fr;
+        padding: 20px;
     }
 
     .end-article-description{
