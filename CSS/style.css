@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x:hidden;
 }
 
 /* icon styles */
@@ -51,7 +52,6 @@ color: orange;
 
 .navbar .leftside-of-navbar h1{
     font-size: 34px;
-    pa
 }
 
 .navbar .rightside-of-navbar a{
@@ -282,7 +282,7 @@ html, body{
     .end-section-artcicle{
         display: grid;
         grid-template-columns: 1fr;
-        padding: 20px;
+        padding-left: 10px;
     }
 
     .end-article-description{
